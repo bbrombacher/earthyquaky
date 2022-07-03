@@ -13,7 +13,6 @@ let map = L.map('mapid').setView([30, 30], 2);
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
 
-
 // Accessing the airport GeoJSON URL
 let airportData = "https://raw.githubusercontent.com/bbrombacher/earthyquaky/main/majorAirports.json";
 
